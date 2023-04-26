@@ -4,7 +4,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-using-html-5-css-and-flexbox-0eaOpiccPl)
+- [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-using-html-5-css-and-flexbox-vjCk6e5lCN)
 - [Live Site URL](https://marilisa-saldanha.github.io/profile-card-component/)
 
 ### Built with
