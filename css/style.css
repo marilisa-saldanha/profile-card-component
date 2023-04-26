@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  /* Colors */
+  /* Primary */
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  /* Neutral */
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  background-color: var(--dark-cyan);
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 51vw bottom 25vh, left 45vw top 50vh;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 20rem;
+  height: 22rem;
+  background-color: white;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.cardImgTop img {
+  width: 100%;
+  border-top-right-radius: .9rem;
+  border-top-left-radius: .9rem;
+}
+
+.imgProfile {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  top: 20%;
+  left: 33%;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 4rem;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.age {
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+  padding-left: .3rem;
+}
+
+.city {
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+  padding: .5rem 0 1.4rem 0;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.233);
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1.3rem;
+}
+
+.statNumber {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+  padding-bottom: .3rem;
+}
+
+.statText {
+  font-size: .7rem;
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+  letter-spacing: .1rem;
+}
+
+.stats1, .stats2, .stats3 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: .8rem;
+  padding: .5rem;
+  color: rgba(255, 255, 255, 0.712);
+  font-weight: 700;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsla(226, 64%, 20%, 0.849);
+}
+
+@media screen and (min-width: 1440px) {
+  footer {
+    font-size: .9rem;
+  }
+}
